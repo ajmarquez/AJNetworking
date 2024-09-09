@@ -1,8 +1,8 @@
 import Foundation
 
 public protocol APIService {
-    var baseURL: URL { get }
+    var baseURL: URL? { get }
     var encoder: JSONEncoder { get }
     var headers: [HTTPHeaders] { get }
-    var key: String { get }
+    var apiKey: String { get }
 }

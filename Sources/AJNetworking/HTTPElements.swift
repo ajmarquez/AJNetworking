@@ -12,6 +12,7 @@ public enum HTTPMethod: String {
     case patch = "PATCH"
 }
 
+
 public struct HTTPHeader {
     public enum Key {
         public static let accept =  "Accept"
